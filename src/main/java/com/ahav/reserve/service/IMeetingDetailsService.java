@@ -22,7 +22,7 @@ public interface IMeetingDetailsService {
     public MeetingDetails findLastTime(Date startTime);
     //根据会议室id查询会议详情
     public List<MeetingDetails> findRoomIdMeetingDetails(Integer deRoomId);
-    //添加会议详情
+    //添加会议详情//添加会议详情
     public int addMeetingDetails(MeetingDetails meetingDetails);
 
 }
